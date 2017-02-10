@@ -1,0 +1,23 @@
+ Test 1 2.2 
+Editorul omniprezent pe orice sistem Unix/Linux este VI (Visual Editor). Acesta este
+extrem de flexibil, complex si plin de optiuni.
+Se caracterizeaza prin 3 modalitati de operare:
+  Comanda Mode 
+In momentul in care se deschide VI suntem introdusi in "command mode". Se
+foloseste pentru a accesa celelalte moduri, pentru a vizualiza si edita fisierul curent,
+copy/paste, search etc.
+1. r - replace a char
+2. x - sterge caracterul de sub cursor.
+3.u – undo  etc.
+   Insert Mode
+Este folosit pentru a insera text in documentul curent.
+o - insereaza pe randul urmator.
+i - insereaza inaintea caracterului de sub cursor  etc.
+
+    Last Line Mode
+Se foloseste pentru a salva documentul curent, pentru revenire la varianta de la
+ultima salvare a fisierului sau pentru a executa diferite comenzi.
+wq - write and quit
+q! - quit fara salvare
+w! - salvare fara quit
+e! – undo
